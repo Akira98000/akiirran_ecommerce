@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); /* TITRE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif Hentaigana", sans-serif; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease;
+  outline: none;
+}
+
+.btn .icon {
+  width: 22px;
+  height: 22px;
+  stroke: rgb(0, 0, 0); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.btn:hover .icon {
+  transform: translateX(5px);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.promo-bar {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.countdown-text {
+  margin-left: 50px;
+  display: inline-block;
+  transition: opacity 0.3s ease-in-out; 
+  color: #6b6553;
+}
+
+.fade-out {
+  opacity: 0; 
+}
+.fade-in {
+  opacity: 1; 
+}
+
+header {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+  }
+
+.logo h1 {
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  color: #000;
+
+}
+
+.logo-footer h1{
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  margin-right: 2rem;
+}
+nav {
+    position: absolute; /* Ajoute cette ligne */
+    left: 50%;        /* Ajoute cette ligne */
+    transform: translateX(-50%); /* Ajoute cette ligne */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  transition: color 0.3s ease-in-out;
+}
+
+ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: #000;
+}
+
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-buttons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #333; 
+  transition: stroke 0.3s;
+}
+
+.icon:hover {
+  stroke: #000; 
+}
+
+.hero {
+  position: relative;
+  margin: 0 1.8rem 1rem 1.8rem;
+  border-radius: 20px;
+  min-height: 85vh;
+  background: url("https://shop.brunellocucinelli.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dw42733d5b/Stories/parfums.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: inherit;
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 2;
+  color: #fff;
+}
+
+.text-left {
+  max-width: 50%;
+}
+
+.text-left h2 {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+
+.text-left p {
+  margin-bottom: 1rem;
+}
+
+/* Bouton à droite */
+.hero-text button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.hero-text button:hover {
+  background-color: #ddd;
+}
+
+
+.new-collection {
+  margin-top: 100px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.new-collection h3 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.new-collection p {
+  margin-bottom: 2rem;
+  color: rgb(155 155 155);
+  font-size: 1rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr); /* Max 3 colonnes */
+  gap: 25px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0;
+  text-align: center;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.product-card img {
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 20px;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card-text {
+  width: 80%;
+  padding: 15px;
+  text-align: left;
+}
+
+.product-card-text h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.product-card-text .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.product-card-text .desc {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+  .products-grid {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .products-grid {
+      grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
+.product-card .desc {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+
+.categories {
+  border-top: 1px solid #777777;
+  display: flex;
+  justify-content: space-between; 
+  width: 100vw; 
+  height: 60vh;
+  gap: 25px;
+  padding: 2rem;
+}
+
+.category-card {
+  flex: 1; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.category-card:hover {
+  transform: scale(1.02);
+}
+
+.category-card:nth-child(1) {
+  background-image: url("https://www.harbourcity.com.hk/media/BV-Men_image-1.jpg");
+}
+.category-card:nth-child(2) {
+  background-image: url("https://images.prestigeonline.com/wp-content/uploads/sites/5/2020/12/01163213/22.Brunello-Cucinelli-FW20-_women-1024x683.jpg");
+}
+.category-card:nth-child(3) {
+  background-image: url("https://edgemarkets-transferred.s3-ap-southeast-1.amazonaws.com/Brunello%20Cucinelli%20Kids%20Collection%20FW22%20011.jpg?S5WC55hjCil5vSTYbuf5pJewe6qRbqs");
+}
+
+.category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.category-overlay {
+  position: absolute;
+  bottom: 20px; 
+  left: 20px; 
+  z-index: 2; 
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+
+.category-overlay h4 {
+  font-size: 4rem;
+  margin-bottom: 7px;
+}
+
+.category-overlay button {
+  background-color: rgba(255, 255, 255, 0.786);
+  color: rgb(0, 0, 0);
+  border: 1px  rgb(0, 0, 0);
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.category-overlay button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 900px) {
+
+  .category-card {
+      height: 33vh; 
+  }
+}
+
+.footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 40px 5%;
+  margin-top: 50px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mobile-nav-header{
+  display: none;
+}
+
+.newsletter {
+  flex: 1; 
+  max-width: 400px;
+}
+
+.newsletter-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  text-align: center;
+  padding: 15px 3rem;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out;
+}
+
+.newsletter-form button:hover {
+  background-color: #626262;
+}
+
+.newsletter-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.newsletter-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.newsletter-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.newsletter-message.warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.newsletter-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-column {
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  color: #000000;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-column ul li:hover {
+  color: rgb(129, 129, 129);
+}
+
+.footer-bottom {
+  background-color: #000000;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding:2rem;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 0.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .newsletter {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .footer-columns {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-top: 2rem;
+  }
+
+  .footer-bottom {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .products-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categories {
+      flex-direction: column;
+      height: auto;
+  }
+  .category-card {
+      height: 33vh;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .newsletter {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+  .footer-columns {
+      margin-top: 2rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .footer-bottom {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .products-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .text-left h2{
+    font-size: 2rem;
+  }
+
+  .text-left p{
+    font-size: 0.8rem;
+  }
+
+  .text-left {
+    max-width: 100%;
+  }
+  .hero-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-card-text h4{
+    font-size: 1.4rem;
+  }
+
+  .product-card .desc{
+    font-size: 1.1rem;
+  }
+
+  .product-card-text .price{
+    font-size: 1.6rem;
+  }
+
+  .category-card {
+    height: 300px; 
+  }
+
+  .category-overlay h4 {
+    font-size: 2rem;
+  }
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 8px;
+    }
+    
+    nav.nav-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #ffffff;
+        padding: 2rem;
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .new-collection h3{
+        font-size: 2.5rem;
+    }
+
+    .newsletter-form{
+        display: none;
+    }
+    
+    .new-collection p{
+        font-size: 0.8rem;
+    }
+    
+    nav.nav-menu.open {
+      display: block;
+      transform: translateX(0);
+    }
+    
+    .mobile-nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .mobile-nav-header h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    
+    .close-menu {
+      background: none;
+      border: none;
+      padding: 8px;
+      cursor: pointer;
+    }
+    
+    .close-menu .icon {
+      width: 24px;
+      height: 24px;
+    }
+    
+    nav.nav-menu ul {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    nav.nav-menu ul li {
+      width: 100%;
+      text-align: left;
+    }
+    
+    nav.nav-menu ul li a {
+      display: block;
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+    }
+    
+    nav.nav-menu ul li a::after {
+      height: 1px;
+    }
+    
+    .header-buttons {
+      display: none;
+    }
+
+    .footer{
+        margin-top: 0;
+    }
+
+    .categories{
+        padding: 0;
+        gap: 0;
+
+    }
+
+    .category-card{
+        height: 200px;
+    }
+
+    .footer-bottom{
+        margin-top: 0;
+    }
+
+    .footer-columns{
+        display:none;
+    }
+
+    #newsletter-text{
+        font-size: 0.9rem;
+    }
+
+    .logo-footer h1{
+        margin-right: 0;
+    }
+
+    .new-collection{
+        margin-top: 55px;
+    }
+    
+}
+
+/* Ajout d'une animation de fade pour le fond sombre */
+.nav-menu::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.nav-menu.open::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Ajoutez cette media query à la fin du fichier */
+@media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+  
+  .custom-cursor,
+  .cursor-dot {
+    display: none;
+  }
+}
