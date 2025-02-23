@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Noto Serif Hentaigana", sans-serif; 
     text-decoration: none;
+    cursor: none !important;
 }
 
 html, body {
@@ -804,12 +805,12 @@ ul li a:hover::after {
 /* Ajoutez cette media query à la fin du fichier */
 @media (max-width: 768px) {
   body {
-    cursor: auto;
+    cursor: auto !important;
   }
   
-  .custom-cursor,
+  .premium-cursor,
   .cursor-dot {
-    display: none;
+    display: none !important;
   }
 }
 
