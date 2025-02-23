@@ -139,6 +139,23 @@ body {
     border: none;
     margin: 20px 0;
     cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-to-bag:hover {
+    background: #333;
+}
+
+.add-to-bag.added {
+    background: #2ecc71;
+}
+
+.add-to-bag.added:hover {
+    background: #27ae60;
 }
 
 .viewing-info {

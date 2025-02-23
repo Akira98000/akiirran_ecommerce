@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Polo Pietro",
+      "title": "Pantalon Quarona",
       "brand": "Loro Piana",
       "currentPrice": "410.00€",
       "originalPrice": "820.00€",
@@ -10,14 +10,14 @@
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
-      "color": "#3C3633",
+      "type": "Pants",
+      "color":"#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/BA15BEC7-7DC6-4298-BD49-46DC13AFA338/FAP3992_WI37_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/0B401506-DFF1-4547-B5F3-6C8651C508C0/FAP3992_WI37_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/57FCFF13-D1EC-4E83-9D36-6D8E27536DEF/FAP3992_WI37_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/51B5E61E-B6F4-4BCB-99D4-B40B7FA18BCF/FAP3992_WI37_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -38,22 +38,22 @@
     },
     {
       "id": 2,
-      "title": "Polo Pietro",
+      "title": "Pantalon Quarona",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "450.00€",
+      "originalPrice": "650.00€",
       "discount": "50% OFF",
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Pants",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/FB445A8B-F8AB-4614-8153-80537B8C0E55/FAP3992_1000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/EA706397-0646-4FD1-8596-27B40E805208/FAP3992_1000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/F3AD055B-A44F-4E0C-A4DD-F70A5D8B64FA/FAP3992_1000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP3992/E0C9DFA2-8CED-48DC-BF59-8BBEFEE9E7AA/FAP3992_1000_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -74,22 +74,22 @@
     },
     {
       "id": 3,
-      "title": "Polo Pietro",
+      "title": "Veste Roadster The Gift of Kings®",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "10000.00€",
+      "originalPrice": "20000.00€",
       "discount": "50% OFF",
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Jacket",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2251/B1730CE4-2F0D-430F-B319-0D50C48BDA75/FAP2251_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2251/0B731D57-A856-42F3-84FE-E82BBC1328DC/FAP2251_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2251/2821CEC0-1964-44AD-84B8-5CA28F45374D/FAP2251_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2251/7FCA6AF9-2BED-405F-9178-236EB20657AF/FAP2251_W000_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -110,22 +110,22 @@
     },
     {
       "id": 4,
-      "title": "Polo Pietro",
+      "title": "Blouson Conley",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "2200.00€",
+      "originalPrice": "4400.00€",
       "discount": "50% OFF",
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Jacket",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP1766/AF3543CC-F247-49AE-81DD-D88492E35C8D/FAP1766_W1C6_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP1766/0C28C45D-7658-4D7A-839B-7773B7A7DA5E/FAP1766_W1C6_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP1766/52D290BB-102B-4ABE-AC64-099A6452E88E/FAP1766_W1C6_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP1766/2A7BF1E5-058B-4F2A-8514-DFE25CF505A0/FAP1766_W1C6_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -146,22 +146,22 @@
     },
     {
       "id": 5,
-      "title": "Polo Pietro",
+      "title": "Bomber Benson",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "3650.00€",
+      "originalPrice": "7300.00€",
       "discount": "50% OFF",
-      "desc": "By Loro Piana © 2025",
+      "desc": "Soie - Storm System®",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Jacket",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0946/41DD2DF5-9EB3-4CB1-A9C1-462B97DA2C9B/FAP0946_503G_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0946/B436A0BE-34A4-4683-AA83-C36DA32AB3A8/FAP0946_503G_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0946/8AB0585E-2901-4B00-B570-ED9B72F45334/FAP0946_503G_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0946/7F34EEC3-9040-4A4E-9037-C91D4D8078F9/FAP0946_503G_LARGE.jpg?sw=500&sh=700"
       ],
       "details": {
         "description": {
@@ -182,22 +182,22 @@
     },
     {
       "id": 6,
-      "title": "Polo Pietro",
+      "title": "Pull à col rond Oggebbio",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "1300.00€",
+      "originalPrice": "2600.00€",
       "discount": "50% OFF",
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Hoodie",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0890/79BCC069-D6E5-4F6F-9C5E-9CCCB3B528E7/FAP0890_B4YU_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0890/DF87F751-50AD-466A-A61B-26650D7FE2D2/FAP0890_B4YU_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0890/26C776E6-4F93-4533-A4A2-F976E0A2FFBC/FAP0890_B4YU_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP0890/AF63CCFD-3664-4D94-A457-680C8ED110D0/FAP0890_B4YU_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -218,22 +218,22 @@
     },
     {
       "id": 7,
-      "title": "Polo Pietro",
+      "title": "Short de bain Bay",
       "brand": "Loro Piana",
-      "currentPrice": "410.00€",
-      "originalPrice": "820.00€",
+      "currentPrice": "500.00€",
+      "originalPrice": "1000.00€",
       "discount": "50% OFF",
       "desc": "By Loro Piana © 2025",
       "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
       "category": "men",
-      "type": "Tshirt",
+      "type": "Short",
       "color": "#3C3633",
       "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/49B38F2B-DB8A-4184-860E-E54E0960624D/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/B6592C96-6ADE-497C-AF3F-AF1746C5A7A7/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/877D04AF-D843-48C0-8AF0-2DECE43D4178/FAO9881_50L8_LARGE.jpg?sw=500&sh=700",
-        "https://media.loropiana.com/HYBRIS/FAO/FAO9881/63FA8064-4ECA-4595-85EC-8CABE48DF00B/FAO9881_50L8_LARGE.jpg"
+        "https://media.loropiana.com/HYBRIS/FAO/FAO1658/0AAB6079-28F1-459A-8C9C-92F002118CA8/FAO1658_F5XY_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAO/FAO1658/F88F5D17-D643-4BCB-AA80-ED79E2D4C5C8/FAO1658_F5XY_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAO/FAO1658/72FEE417-D5EC-4F52-A4D0-01E834C304F5/FAO1658_F5XY_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAO/FAO1658/B2A8E47A-9515-4B73-8EA1-9A1C1477762D/FAO1658_F5XY_LARGE.jpg"
       ],
       "details": {
         "description": {
@@ -254,6 +254,150 @@
     },
     {
       "id": 8,
+      "title": "Short de bain Bay",
+      "brand": "Loro Piana",
+      "currentPrice": "450.00€",
+      "originalPrice": "900.00€",
+      "discount": "50% OFF",
+      "desc": "By Loro Piana © 2025",
+      "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
+      "category": "men",
+      "type": "Short",
+      "color": "#3C3633",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2209/BE32E023-F8D1-4BFC-9961-724D2DD619FB/FAP2209_W1EB_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2209/F2408641-DB4A-4F2F-9D77-A3B2BFB8B51B/FAP2209_W1EB_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2209/6C1CB56C-EFE7-48CB-95E4-EA72EAF66509/FAP2209_W1EB_LARGE.jpg",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP2209/446DB0D1-13A0-4033-8004-755AB81E3C81/FAP2209_W1EB_LARGE.jpg?sw=500&sh=700"
+      ],
+      "details": {
+        "description": {
+          "text": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit. A soft cotton blend keeps you comfortable while a relaxed fit ensures/Regular 100% cotton/Machine washable/Model is wearing size medium/BS BASICS Main | Basic Regular T-shirt",
+          "bullets": [
+            "Model is wearing size medium",
+            "Model's height: 185.5 cm | 6'1",
+            "Oversized fit",
+            "Fleece lined pockets",
+            "Water resistant",
+            "100% Polyester"
+          ]
+        },
+        "shipping": "Free standard shipping on orders over $200. Express shipping available. International shipping available to over 100 countries.",
+        "deliveryTime": "Standard Delivery: 3-5 business days\nExpress Delivery: 1-2 business days\nInternational Delivery: 7-14 business days",
+        "returns": "Free returns within 30 days of delivery. Items must be unworn and in original packaging. See our full return policy for more details."
+      }
+    },
+    {
+      "id": 9,
+      "title": "T-Shirt Ray Coton Navy Blue",
+      "brand": "Loro Piana",
+      "currentPrice": "410.00€",
+      "originalPrice": "820.00€",
+      "discount": "50% OFF",
+      "desc": "By Loro Piana © 2025",
+      "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
+      "category": "men",
+      "type": "Tshirt",
+      "color": "#3C3633",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        "https://media.loropiana.com/HYBRIS/FAM/FAM8924/F3003F5B-BD83-4315-B3F4-101C61D07357/FAM8924_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAM/FAM8924/44D004D4-D673-41CE-BA55-3996E9F27D25/FAM8924_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAM/FAM8924/FFB757EA-DBE7-4FE4-91E5-E118CA4FEBE6/FAM8924_W000_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAM/FAM8924/A6EA280A-934A-47B2-903C-0A8304810666/FAM8924_W000_LARGE.jpg?sw=500&sh=700"
+      ],
+      "details": {
+        "description": {
+          "text": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit. A soft cotton blend keeps you comfortable while a relaxed fit ensures/Regular 100% cotton/Machine washable/Model is wearing size medium/BS BASICS Main | Basic Regular T-shirt",
+          "bullets": [
+            "Model is wearing size medium",
+            "Model's height: 185.5 cm | 6'1",
+            "Oversized fit",
+            "Fleece lined pockets",
+            "Water resistant",
+            "100% Polyester"
+          ]
+        },
+        "shipping": "Free standard shipping on orders over $200. Express shipping available. International shipping available to over 100 countries.",
+        "deliveryTime": "Standard Delivery: 3-5 business days\nExpress Delivery: 1-2 business days\nInternational Delivery: 7-14 business days",
+        "returns": "Free returns within 30 days of delivery. Items must be unworn and in original packaging. See our full return policy for more details."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Sac de sport Wind - Storm System®",
+      "brand": "Loro Piana",
+      "currentPrice": "2900.00€",
+      "originalPrice": "5800.00€",
+      "discount": "50% OFF",
+      "desc": "By Loro Piana © 2025",
+      "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
+      "category": "accessories",
+      "type": "Bags",
+      "color": "#3C3633",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        "https://media.loropiana.com/HYBRIS/FAP/FAP4828/B87F6FB7-8FA6-486B-8806-1B2015196AAE/FAP4828_B5A5_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP4828/55E78648-6FC2-4D46-8C2B-4A9ED7D91ED7/FAP4828_B5A5_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP4828/82F75576-BA84-4CAE-89C3-C27E79A8F9E0/FAP4828_B5A5_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAP/FAP4828/3E63DE1D-B2A5-4530-A73D-24071EB2B30D/FAP4828_B5A5_LARGE.jpg"
+      ],
+      "details": {
+        "description": {
+          "text": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit. A soft cotton blend keeps you comfortable while a relaxed fit ensures/Regular 100% cotton/Machine washable/Model is wearing size medium/BS BASICS Main | Basic Regular T-shirt",
+          "bullets": [
+            "Model is wearing size medium",
+            "Model's height: 185.5 cm | 6'1",
+            "Oversized fit",
+            "Fleece lined pockets",
+            "Water resistant",
+            "100% Polyester"
+          ]
+        },
+        "shipping": "Free standard shipping on orders over $200. Express shipping available. International shipping available to over 100 countries.",
+        "deliveryTime": "Standard Delivery: 3-5 business days\nExpress Delivery: 1-2 business days\nInternational Delivery: 7-14 business days",
+        "returns": "Free returns within 30 days of delivery. Items must be unworn and in original packaging. See our full return policy for more details."
+      }
+    },
+    {
+      "id": 11,
+      "title": "Extra Pouch L29 - Veau Grainé",
+      "brand": "Loro Piana",
+      "currentPrice": "1800.00€",
+      "originalPrice": "3600.00€",
+      "discount": "50% OFF",
+      "desc": "By Loro Piana © 2025",
+      "description": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit",
+      "category": "accessories",
+      "type": "Bags",
+      "color": "#3C3633",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        "https://media.loropiana.com/HYBRIS/FAN/FAN9085/2A96AF73-6281-408E-8702-BF4C82AE820E/FAN9085_D0UC_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAN/FAN9085/055BDEFA-E71E-42B1-8876-F6B902746ACE/FAN9085_D0UC_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAN/FAN9085/2149D3ED-F36D-4E4B-8CEF-35381697FE6D/FAN9085_D0UC_LARGE.jpg?sw=500&sh=700",
+        "https://media.loropiana.com/HYBRIS/FAN/FAN9085/7DE547F2-07B7-412D-8AD9-4932D7336834/FAN9085_D0UC_LARGE.jpg"
+      ],
+      "details": {
+        "description": {
+          "text": "Keep things cool and casual with help from the Peace Regular T-Shirt. This new Puffer go-to has on every regular fit. A soft cotton blend keeps you comfortable while a relaxed fit ensures/Regular 100% cotton/Machine washable/Model is wearing size medium/BS BASICS Main | Basic Regular T-shirt",
+          "bullets": [
+            "Model is wearing size medium",
+            "Model's height: 185.5 cm | 6'1",
+            "Oversized fit",
+            "Fleece lined pockets",
+            "Water resistant",
+            "100% Polyester"
+          ]
+        },
+        "shipping": "Free standard shipping on orders over $200. Express shipping available. International shipping available to over 100 countries.",
+        "deliveryTime": "Standard Delivery: 3-5 business days\nExpress Delivery: 1-2 business days\nInternational Delivery: 7-14 business days",
+        "returns": "Free returns within 30 days of delivery. Items must be unworn and in original packaging. See our full return policy for more details."
+      }
+    },
+    {
+      "id": 12,
       "title": "Polo Pietro",
       "brand": "Loro Piana",
       "currentPrice": "410.00€",
@@ -289,8 +433,6 @@
       }
     }
   ],
-
-
   
   "categories": {
     "men": {
@@ -308,6 +450,10 @@
     "accessories": {
       "name": "Accessories",
       "filters": ["Bags", "Hats", "Scarves", "Jewelry"]
+    },
+    "gift": {
+      "name": "Gift",
+      "filters": ["Tshirt", "Jacket", "Pants", "Shoes"]
     }
   }
 } 

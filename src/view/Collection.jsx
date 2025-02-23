@@ -11,24 +11,32 @@ function Collection() {
   const { getProductsByCategory, getFiltersByCategory, getProductsByFilter } = useProducts();
 
   useEffect(() => {
+    // Réinitialiser le filtre actif lors du changement de catégorie
+    setActiveFilter(null);
+    // Charger tous les produits de la catégorie
+    const products = getProductsByCategory(category);
+    setFilteredProducts(products);
+  }, [category]);
+
+  useEffect(() => {
+    // Mettre à jour les produits filtrés en fonction du filtre actif
     const products = activeFilter
       ? getProductsByFilter(category, activeFilter)
       : getProductsByCategory(category);
     setFilteredProducts(products);
-  }, [category, activeFilter]);
-
-  useEffect(() => {
-    const filters = getFiltersByCategory(category);
-    if (filters.length > 0 && !activeFilter) {
-      setActiveFilter(filters[0]);
-    }
-  }, [category]);
+    // Réinitialiser la pagination
+    setCurrentPage(1);
+  }, [activeFilter]);
 
   const filters = getFiltersByCategory(category);
 
   const handleFilterClick = (filter) => {
-    setActiveFilter(filter);
-    setCurrentPage(1);
+    // Si on clique sur le filtre déjà actif, le désactiver
+    if (activeFilter === filter) {
+      setActiveFilter(null);
+    } else {
+      setActiveFilter(filter);
+    }
   };
 
   const handlePageChange = (page) => {
@@ -70,24 +78,45 @@ function Collection() {
         </div>
 
         <div className="products-grid">
-          {currentProducts.map((product) => (
-            <div 
-              className="product-card" 
-              key={product.id}
-              onClick={() => handleProductClick(product.id)}
-              style={{ cursor: 'pointer' }}
-            >
-              <img 
-                src={product.images ? product.images[0] : product.image} 
-                alt={product.title} 
-              />
-              <div className="product-card-text">
-                <h4>{product.title}</h4>
-                <p className="desc">{product.desc}</p>
-                <p className="price">{product.currentPrice}</p>
-              </div>
+          {filteredProducts.length === 0 ? (
+            <div className="no-products">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="no-products-icon"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                />
+              </svg>
+              <h2>Aucun produit disponible</h2>
+              <p>Les produits pour cette catégorie arrivent bientôt</p>
             </div>
-          ))}
+          ) : (
+            currentProducts.map((product) => (
+              <div 
+                className="product-card" 
+                key={product.id}
+                onClick={() => handleProductClick(product.id)}
+                style={{ cursor: 'pointer' }}
+              >
+                <img 
+                  src={product.images ? product.images[0] : product.image} 
+                  alt={product.title} 
+                />
+                <div className="product-card-text">
+                  <h4>{product.title}</h4>
+                  <p className="desc">{product.desc}</p>
+                  <p className="price">{product.currentPrice}</p>
+                </div>
+              </div>
+            ))
+          )}
         </div>
 
         {totalPages > 1 && (

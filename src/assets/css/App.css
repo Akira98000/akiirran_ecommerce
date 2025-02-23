@@ -76,13 +76,6 @@ header {
   padding: 1rem 2.5rem;
 }
 
-.logo h1 {
-  font-weight: bold;
-  font-family: "Dancing Script", cursive;
-  font-size: 2.5rem;
-  margin-right: 2rem;
-}
-
 .logo-footer h1{
   font-weight: bold;
   font-family: "Dancing Script", cursive;
@@ -264,10 +257,6 @@ ul li a:hover::after {
   text-align: left;
 }
 
-.product-card-text h4 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-}
 
 .product-card-text .price {
   font-size: 1.5rem;

@@ -111,10 +111,6 @@ body {
     text-align: left;
 }
   
-.product-card-text h4 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-}
   
 .product-card-text .price {
     font-size: 1.5rem;
@@ -181,4 +177,32 @@ body {
 .page-btn.active {
     color: #000000; /* Couleur du texte pour le bouton actif */
     border: 2px solid #000; /* Bordure plus épaisse pour le bouton actif */
+}
+
+.no-products {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.no-products-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.no-products h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.no-products p {
+    font-size: 1.1rem;
+    color: #666;
 } 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useProducts } from '../hooks/useProducts';
+import { useCart } from '../hooks/useCart';
 import ShareOverlay from '../components/ShareOverlay';
 
 function Detail() {
@@ -9,14 +10,25 @@ function Detail() {
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [scale, setScale] = useState(1);
+  const [addedToCart, setAddedToCart] = useState(false);
   const { productId } = useParams();
   const navigate = useNavigate();
   const { getProductById, getRecommendedProducts } = useProducts();
+  const { addToCart } = useCart();
   const [isShareOpen, setIsShareOpen] = useState(false);
 
   const product = getProductById(productId);
   const recommendations = getRecommendedProducts(productId, product?.category, product?.type);
   const images = product?.images || [product?.image];
+
+  useEffect(() => {
+    if (addedToCart) {
+      const timer = setTimeout(() => {
+        setAddedToCart(false);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [addedToCart]);
 
   if (!product) {
     return <div>Produit non trouvé</div>;
@@ -29,6 +41,11 @@ function Detail() {
   const handleRecommendationClick = (productId) => {
     navigate(`/product/${productId}`);
     window.scrollTo(0, 0);
+  };
+
+  const handleAddToBag = () => {
+    addToCart(product, selectedSize);
+    setAddedToCart(true);
   };
 
   const openFullscreen = (index) => {
@@ -109,7 +126,7 @@ function Detail() {
 
           {product.color && (
             <div className="color-section">
-              <p>Colour:</p>
+              <p>Couleur :</p>
               <div className="color-option selected" style={{ backgroundColor: product.color }}></div>
             </div>
           )}
@@ -117,8 +134,8 @@ function Detail() {
           {product.sizes && (
             <div className="size-section">
               <div className="size-header">
-                <span>Clothing Size</span>
-                <a href="#" className="size-guide">Sizing help?</a>
+                <span>Taille</span>
+                <a href="#" className="size-guide">Guide des tailles</a>
               </div>
               <div className="size-grid">
                 {product.sizes.map((size) => (
@@ -134,8 +151,13 @@ function Detail() {
             </div>
           )}
 
-          <button className="add-to-bag">ADD TO BAG</button>
-          <p className="viewing-info">27 PEOPLE ARE VIEWING THIS PRODUCT</p>
+          <button 
+            className={`add-to-bag ${addedToCart ? 'added' : ''}`}
+            onClick={handleAddToBag}
+          >
+            {addedToCart ? 'AJOUTÉ AU PANIER ✓' : 'AJOUTER AU PANIER'}
+          </button>
+          <p className="viewing-info">27 PERSONNES REGARDENT CE PRODUIT</p>
 
           {product.details && (
             <div className="product-details">

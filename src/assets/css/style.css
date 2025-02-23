@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Serif Hentaigana", sans-serif; 
+    text-decoration: none;
 }
 
 html, body {
@@ -83,7 +84,10 @@ header {
   font-size: 2.5rem;
   margin-right: 2rem;
   color: #000;
-
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .logo-footer h1{
@@ -91,6 +95,10 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 3.5rem;
   margin-right: 2rem;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 nav {
     position: absolute; /* Ajoute cette ligne */
@@ -274,10 +282,7 @@ ul li a:hover::after {
   text-align: left;
 }
 
-.product-card-text h4 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-}
+
 
 .product-card-text .price {
   font-size: 1.5rem;
@@ -517,6 +522,10 @@ ul li a:hover::after {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.product-card-text h4 {
+  font-size: 1.2rem;
 }
 
 .footer-bottom p {
@@ -802,4 +811,36 @@ ul li a:hover::after {
   .cursor-dot {
     display: none;
   }
+}
+
+.custom-cursor {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  transition-property: width, height, border, transform, border-color;
+  mix-blend-mode: difference;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  transition-property: width, height, background-color, transform;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor.hover {
+  transform: translate(-50%, -50%) scale(1.5);
 }
